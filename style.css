@@ -1,0 +1,95 @@
+
+body{
+  background-image: url("image4.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  
+  /* background: linear-gradient(rgba(0, 0, 0, 0.526), rgba(0, 0, 0, 0.553)), no-repeat center/cover url(image4.jpg); */
+}
+nav .navbar-toggler-icon, .navbar-toggler{
+  color: aliceblue;
+}
+nav{
+  background-color: #490909;
+}
+.box{
+  background-color: #F6E1C5;
+  z-index: 1111;
+}
+.home .card{
+  background-color: #F6E1C5;
+  margin-right: -120px;
+}
+.about .card{
+  background-color: #F6E1C5;
+  margin-top: -90px;
+}
+.home .btn-danger{
+  background-color: #490909;
+}
+
+.promesse{
+  background-color: #A5342BB0;
+}
+.boxs{
+  position: relative;
+}
+.product .box1{
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+.product .box2{
+  position: absolute;
+  bottom: -50px;
+  left: -50px;
+}
+.day{
+  border-bottom: 1px solid #311919;
+  margin-bottom: -5px;
+}
+.abou {
+  background-color: #F6E1C5;
+}
+footer{
+  background-color: #311919;
+}
+@media (max-width: 990px) {
+  .home .card{
+      margin-right: 0;
+  }
+  .about .card{
+      margin-top: 0;
+  }
+  .about .box{
+      margin-top: 0;
+  }
+  .product .box1{
+      
+     display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------- footer -------------------*/
+/* .footer{
+    background-color: maroon;
+    height: 160px;
+    padding: 20px;
+} */
